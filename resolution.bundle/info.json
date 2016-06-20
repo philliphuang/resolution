@@ -1,12 +1,13 @@
 {
   "categories" : [
-    "Utilities"
+    "System"
   ],
-  "displayName" : "Say Something",
+  "displayName" : "Change Resolution",
   "name" : "resolution",
-  "description" : "This is an example plugin",
+  "description" : "Change scaled screen resolution on Retina displays",
   "examples" : [
-    "say hello world",
-    "say good morning"
+    "resolution up",
+    "res max",
+    "res default"
   ]
 }
