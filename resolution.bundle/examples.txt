@@ -1,5 +1,13 @@
+res target/increase(increase)
 resolution target/up(up)
+
+res target/decrease(decrease)
 res target/down(down)
+
+res target/maximize(maximize)
 res target/max(max)
+
+res target/minimize(minimize)
 res target/min(min)
+
 res target/default(default)
