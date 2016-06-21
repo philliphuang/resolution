@@ -1,3 +1,5 @@
-say ~message(Good Morning)
-speak ~message(Hello, world)
-please speak ~message(what's up) out loud
+resolution target/up
+res target/down
+res target/max
+res target/min
+res target/default
