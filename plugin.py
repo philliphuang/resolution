@@ -4,19 +4,19 @@ def results(parsed, original_query):
   	target = parsed.values()[0]
 
   	# target cases
-	if target == "increase" or "up":
+	if target in ("increase", "up"):
   		title = "Adjust resolution one step higher"
   		cmd = "osascript -e 'display dialog \"TODO: AppleScript for increasing resolution one step\"'"
 
-	elif target == "decrease" or "down":
+	elif target in ("decrease", "down"):
 		title = "Adjust resolution one step lower"
   		cmd = "osascript -e 'display dialog \"TODO: AppleScript for decreasing resolution one step\"'"
 
-	elif target == "maximum" or "max":
+	elif target in ("maximum", "max"):
 		title = "Adjust resolution to maximum"
   		cmd = "osascript -e 'display dialog \"TODO: AppleScript for setting resolution to maximum\"'"
 
-	elif target == "minimum" or "min":
+	elif target in ("minimum", "min"):
 		title = "Adjust resolution to minimum"
   		cmd = "osascript -e 'display dialog \"TODO: AppleScript for setting resolution to minimum\"'"
 
