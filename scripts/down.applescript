@@ -1,0 +1,1 @@
+display dialog "TODO: AppleScript for decreasing resolution one step"
