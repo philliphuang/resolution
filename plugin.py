@@ -4,23 +4,23 @@ def results(parsed, original_query):
   	target = parsed.values()[0]
 
   	# target cases
-	if target in ("increase", "up"):
+	if target in ("up", "increase", "higher"):
   		title = "Adjust resolution one step higher"
   		script = "up"
 
-	elif target in ("decrease", "down"):
+	elif target in ("down", "decrease", "lower"):
 		title = "Adjust resolution one step lower"
   		script = "down"
 
-	elif target in ("maximum", "max"):
+	elif target in ("max", "maximum", "highest", "most"):
 		title = "Adjust resolution to maximum"
   		script = "max"
 
-	elif target in ("minimum", "min"):
+	elif target in ("min", "minimum", "lowest", "least"):
 		title = "Adjust resolution to minimum"
   		script = "min"
 
-  	elif target == "default":
+  	elif target in ("default", "reset", "standard"):
   		title = "Adjust resolution to default"
   		script = "default"
 
