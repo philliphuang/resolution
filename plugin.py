@@ -35,4 +35,4 @@ def results(parsed, original_query):
 	}
 
 def run(script):
-	os.system("osascript {}.scpt".format(script))
+	os.system("osascript scripts/{}.scpt".format(script))
