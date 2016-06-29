@@ -1,1 +1,3 @@
-display dialog "TODO: AppleScript for increasing resolution one step"
+tell application "System Preferences"
+	set current pane to pane "Displays"
+end tell
