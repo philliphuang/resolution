@@ -1,3 +1,1 @@
-tell application "System Preferences"
-	set current pane to pane "Displays"
-end tell
+display dialog "TODO: increase res"
