@@ -11,3 +11,6 @@ res target/minimize(minimize)
 res target/min(min)
 
 res target/default(default)
+
+target/default(default) res
+target/default(default) resolution
