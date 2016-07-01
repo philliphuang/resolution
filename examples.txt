@@ -1,16 +1,31 @@
-res target/increase(increase)
-resolution target/up(up)
-
-res target/decrease(decrease)
-res target/down(down)
-
-res target/maximize(maximize)
-res target/max(max)
-
-res target/minimize(minimize)
-res target/min(min)
-
 res target/default(default)
-
+resolution target/default(default)
 target/default(default) res
 target/default(default) resolution
+
+res target/up(up)
+res target/increase(increase)
+res target/incr(incr)
+res target/higher(higher)
+
+res target/down(down)
+res target/decrease(decrease)
+res target/decr(decr)
+res target/lower(lower)
+
+res target/max(max)
+res target/maximum(maximum)
+res target/maximize(maximize)
+res target/highest(highest)
+res target/most(most)
+
+res target/min(min)
+res target/minimum(minimum)
+res target/minimize(minimize)
+res target/lowest(lowest)
+res target/least(least)
+
+res target/default(default)
+res target/def(def)
+res target/reset(reset)
+res target/standard(standard)

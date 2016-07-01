@@ -12,11 +12,11 @@ def results(parsed, original_query):
 		title = "Adjust resolution one step lower"
   		script = "down"
 
-	elif target in ("max", "maximum", "highest", "most"):
+	elif target in ("max", "maximum", "maximize", "highest", "most"):
 		title = "Adjust resolution to maximum"
   		script = "max"
 
-	elif target in ("min", "minimum", "lowest", "least"):
+	elif target in ("min", "minimum", "minimize", "lowest", "least"):
 		title = "Adjust resolution to minimum"
   		script = "min"
 
