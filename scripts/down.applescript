@@ -26,6 +26,12 @@ tell application "System Events"
 					end tell
 				end tell
 			end tell
+			-- confirm dialog warning
+			if selectedButton is 2 then
+				tell sheet 1 
+					click button "OK"
+				end tell
+			end if
 		end tell
 	end tell 
 end tell
