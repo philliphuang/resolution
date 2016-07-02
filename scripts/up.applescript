@@ -22,6 +22,8 @@ tell application "System Events"
 						-- switch to one level higher, if not at max
 						if selectedButton is not count of selectedlist then 
 							click radio button (selectedButton + 1)
+						else
+							display dialog "At maximum resolution."
 						end if
 					end tell
 				end tell

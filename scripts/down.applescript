@@ -22,6 +22,8 @@ tell application "System Events"
 						-- switch to one level lower, if not at min
 						if selectedButton is not 1 then 
 							click radio button (selectedButton - 1)
+						else
+							display dialog "At minimum resolution."
 						end if
 					end tell
 				end tell
