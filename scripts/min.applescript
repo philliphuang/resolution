@@ -12,14 +12,28 @@ tell application "System Events"
 				end tell
 				tell group 2 
 					tell radio group 1
-						click radio button 1
+						-- get current resolution level
+						set selectedList to value of every radio button
+						repeat with i from 1 to the count of selectedList
+							if item i of selectedList is true then 
+								set selectedButton to i
+							end if
+						end repeat
+						-- if not at min, switch to min
+						if selectedButton is not 1 then 
+							click radio button 1
+						else
+							display dialog "At minimum resolution."
+						end if
 					end tell
 				end tell
 			end tell
 			-- confirm dialog warning
-			tell sheet 1 
-				click button "OK"
-			end tell
+			if selectedButton is not 1 then
+				tell sheet 1 
+					click button "OK"
+				end tell
+			end if
 		end tell
 	end tell 
 end tell
