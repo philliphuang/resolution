@@ -3,6 +3,11 @@ resolution target/default(default)
 target/default(default) res
 target/default(default) resolution
 
+res ~target(invalid)
+resolution ~target(invalid)
+~target(invalid) res
+~target(invalid) resolution
+
 res target/up(up)
 res target/increase(increase)
 res target/incr(incr)
