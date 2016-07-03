@@ -32,7 +32,8 @@ def results(parsed, original_query):
 	return {
 		"title": title,
 		"run_args": [script],
-		"html": centered_text(title, hint_text="Press enter to adjust.")
+		"html": centered_text(title, hint_text="Press enter to adjust."),
+		"webview_transparent_background": True
 	}
 
 def run(script):
