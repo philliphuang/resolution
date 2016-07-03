@@ -1,4 +1,5 @@
 import os
+from centered_text import centered_text
 
 def results(parsed, original_query):
   	target = parsed.values()[0]
@@ -31,7 +32,7 @@ def results(parsed, original_query):
 	return {
 		"title": title,
 		"run_args": [script],
-		"html": "<h1 style='font-family: sans-serif; padding: 2em'>{0}</h1>".format(title)
+		"html": centered_text(title, hint_text="Press enter to adjust.")
 	}
 
 def run(script):
