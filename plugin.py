@@ -6,11 +6,11 @@ def results(parsed, original_query):
 
   	# target cases
 	if target in ("up", "increase", "incr", "higher"):
-  		title = "Adjust resolution one step higher"
+  		title = "Adjust resolution a step higher"
   		script = "up"
 
 	elif target in ("down", "decrease", "decr", "lower"):
-		title = "Adjust resolution one step lower"
+		title = "Adjust resolution a step lower"
   		script = "down"
 
 	elif target in ("max", "maximum", "maximize", "highest", "most"):
