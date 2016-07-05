@@ -37,5 +37,3 @@ tell application "System Events"
 		end tell
 	end tell 
 end tell
-
-
