@@ -23,7 +23,7 @@ tell application "System Events"
 						if selectedButton is not 1 then 
 							click radio button (selectedButton - 1)
 						else
-							display dialog "At minimum resolution."
+							display dialog "Already at minimum resolution."
 						end if
 					end tell
 				end tell
