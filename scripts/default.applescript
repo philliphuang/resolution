@@ -8,7 +8,11 @@ tell application "System Events"
 		tell window "Built-in Retina Display"
 			tell tab group 1 
 				tell radio group 1
-					click radio button "Default for display"
+					if value of radio button "Default for display" is 1 then
+						display dialog "Already at default resolution."
+					else
+						click radio button "Default for display"
+					end if
 				end tell
 			end tell
 		end tell
