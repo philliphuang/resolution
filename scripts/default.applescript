@@ -24,6 +24,7 @@ tell application "System Events"
 						end repeat
 						-- check if selected in "Scaled" selection
 						-- TODO: check if universal
+						-- TODO: implement break if atDef == 1 for efficiency
 						if accessibility description of radio button selectedButton is "best quality" then
 							set atDef to 1
 						end if
